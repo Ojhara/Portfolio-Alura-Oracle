@@ -1,0 +1,1112 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+.menu__header {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    gap: 15px;
+}
+
+.menu__header img {
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+}
+
+.menu__title {
+    display: flex;
+    place-items: center;
+    font-size: 30px;
+    font-family: "Amita", serif;
+}
+
+.menu__toggle {
+    display: none;
+}
+
+nav {
+    display: flex;
+    place-items: center;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+    font-weight: 550;
+}
+
+.menu__list li:hover {
+    text-decoration: 3px rgb(190, 119, 32) underline;
+
+}
+
+.menu__list__item {
+    display: inline-block;
+    margin-right: 12px;
+    place-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    place-items: center;
+}
+
+.title__profile {
+    width: 300px;
+    border: 4px rgb(211, 160, 19) solid;
+    border-radius: 500px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    place-items: center;
+}
+
+.title__bio {
+    font-size: 48px;
+    font-family: "Amita", serif;
+    letter-spacing: 3px;
+}
+
+.title__subsection {
+    font-size: 24px;
+    font-family: "Josefin Slab", serif;
+    letter-spacing: 2px;
+    line-height: 29px;
+    margin-top: 20px;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.title__network__item {
+    display: flex;
+    gap: 15px;
+}
+
+.title__network__item a {
+    display: flex;
+    flex-direction: column-reverse;
+    place-items: center;
+    text-align: center;
+    gap: 15px;
+    font-size: 20px;
+    font-family: "Amita", serif;
+}
+
+.title__network__item img {
+    width: 50px;
+    box-shadow: 4px 4px 4px grey;
+    border-radius: 60%;
+}
+
+.about{
+    box-sizing: border-box;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border: 4px rgb(211, 160, 19) solid;
+    border-left: none;
+    display: flex;
+    padding:7px 7px 7px 0px;
+    height: 190px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.about__container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    background-color: bisque;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.about__title {
+    text-align: center;
+    background-color: #57C1FF;
+    font-size: 30px;
+    font-family: "Amita", serif;
+    place-content: center;
+    white-space: nowrap;
+    height: 100%;
+    width: 15%;
+}
+
+.about__paragraph {
+    display: flex;
+    justify-items: center;
+    font-size: 20px;
+    font-family: "Josefin Slab", serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 9px;
+    margin-right: 12px;
+    padding-right: 3rem;
+    text-align: justify;
+    place-items: center;
+    white-space: wrap;
+    width: 85%;
+}
+
+.skills, .academic {
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border: 4px rgb(211, 160, 19)solid;
+    border-right: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding:7px 7px 7px 0px;
+    height: 190px;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.skills__title, .academic__title {
+    text-align: center;
+    place-content: center;
+    background-color: bisque;
+    font-size: 30px;
+    font-family: "Amita", serif;
+    width: 15%;
+    height: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.skills__line, .academic__courses {
+    background-color: #57C1FF;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    place-content: center;
+    place-items: center;
+    width: 84%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 7px 7px 7px;
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.skills__img, .academic__courses__item__img {
+    width: 60px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.skills__name, .academic__courses__item__title {
+    margin-top: 9px;
+    font-size: 22px;
+    font-family: "Josefin Slab", serif;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.hobbies, .experience{
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border: 4px rgb(211, 160, 19) solid;
+    border-left: none;
+    display: flex;
+    padding:7px 7px 7px 0px;
+    height: 190px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.hobbies__title, .experience__section__title {
+    text-align: center;
+    place-content: center;
+    background-color: #57C1FF;
+    font-size: 30px;
+    font-family: "Amita", serif;
+    width: 15%;
+    height: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.hobbies__line, .experience__box, .experience__courses {
+    background-color: bisque;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    place-content: center;
+    place-items: center;
+    width: 84%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 7px 7px 7px;
+}
+
+.experience__box {
+    background-color: bisque;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    place-content: center;
+    place-items: center;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 7px 7px 7px;
+}
+
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.hobbies__img {
+    width: 60px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.hobbies__name, .experience__courses__item__title, .experience__courses__item__subtitle {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 22px;
+    font-family: "Josefin Slab", serif;
+    letter-spacing: 2px;
+}
+
+.academic__courses__item__img, .experience__courses__item__img {
+    width: 130px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+.linkgit {
+    background-color: #57C1FF;
+    border: 2px solid black;
+    border-radius: 3rem;
+    padding: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.formcontacto {
+    display: flex;
+    place-content: center;
+    padding: 40px;
+}
+
+.formcontacto__contacto {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    width: 50%;
+}
+
+.formcontacto__img {
+    width: 400px;
+    height: 400px;
+}
+
+.container__contacto {
+    width: 50%; 
+}
+
+.contactme {
+    text-align: center;
+    font-family: "Amita", serif;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.container__title {
+    text-align: center;
+}
+
+.contact__form {
+    display: flex;
+    place-content: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+
+
+
+.footer {
+    padding: 15px;
+    background-color: bisque;
+    display: flex;
+    place-content: center;
+}
+
+.link {
+    font-size: 26px;
+    font-family: "Josefin Slab", serif;
+}
+
+.link__link {
+    font-family: "Amita", serif;
+    text-decoration: underline;
+}
+
+.quote {
+    padding: 12px;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+@media (min-width: 620px) and (max-width:1200px){
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 10px;
+        justify-content: space-evenly;
+        background-color: bisque;
+    }
+    
+    .menu__header {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 15px;
+    }
+    
+    .menu__header img {
+        width: 65px;
+        height: 65px;
+        margin: 5px;
+    }
+    
+    .menu__title {
+        display: flex;
+        place-items: center;
+        font-size: 34px;
+        font-family: "Amita", serif;
+    }
+    
+    nav {
+        display: flex;
+        place-items: center;
+    }
+    
+    .menu__list {
+        display: flex;
+        flex-direction: row;
+        font-size: 24px;
+        font-family: "Josefin Slab", serif;
+        font-weight: 550;
+        margin-bottom: 5px;
+    }
+    
+    .menu__list li:hover {
+        text-decoration: 3px rgb(190, 119, 32) underline;
+    
+    }
+    
+    .menu__list__item {
+        display: inline-block;
+        margin-right: 12px;
+        place-items: center;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .title__div {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        place-content: center;
+    }
+    
+    .title__profile {
+        width: 300px;
+        border: 4px rgb(211, 160, 19) solid;
+        border-radius: 500px;
+        margin: 15px;
+        padding: 10px;
+    }
+    
+    .title__container {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        padding: 10px;
+        margin: 10px;
+        place-items: center;
+    }
+    
+    .title__bio {
+        text-align: center;
+        font-size: 48px;
+        font-family: "Amita", serif;
+        letter-spacing: 3px;
+    }
+    
+    .title__subsection {
+        font-size: 24px;
+        font-family: "Josefin Slab", serif;
+        letter-spacing: 2px;
+        line-height: 29px;
+        margin-top: 20px;
+        padding: 0 40px;
+        text-align: justify;
+    }
+    
+    .title__network {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 15px;
+    }
+    
+    .title__network__item {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .title__network__item a {
+        display: flex;
+        flex-direction: column-reverse;
+        place-items: center;
+        text-align: center;
+        gap: 15px;
+        font-size: 24px;
+        font-family: "Amita", serif;
+    }
+    
+    .title__network__item img {
+        width: 60px;
+        box-shadow: 4px 4px 4px grey;
+        border-radius: 60%;
+    }
+    
+    .about{
+        box-sizing: border-box;
+        background-color: none;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border: 4px rgb(211, 160, 19) solid;
+        display: flex;
+        padding:0;
+        margin: 10px;
+    }
+    
+    .about__container {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 0px;
+        background-color: bisque;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    }
+    
+    .about__title {
+        display: flex;
+        background-color: bisque;
+        font-size: 30px;
+        font-family: "Amita", serif;
+        place-content: center;
+        place-items: center;
+        white-space: nowrap;
+        height: 100%;
+        width: 15%;
+    }
+    
+    .about__paragraph {
+        display: flex;
+        justify-items: center;
+        font-size: 20px;
+        font-family: "Josefin Slab", serif;
+        line-height: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 9px;
+        text-align: center;
+        place-items: center;
+        white-space: wrap;
+        width: 85%;
+    }
+    
+    .skills, .academic {
+        border-top-left-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+        border: 4px rgb(211, 160, 19)solid;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        place-content: center;
+        place-items: center;
+    }
+    
+    .skills__title, .academic__title {
+        display: flex;
+        text-align: center;
+        place-content: center;
+        place-items: center;
+        background-color: white;
+        font-size: 30px;
+        font-family: "Amita", serif;
+        width: 15%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .skills__line, .academic__courses {
+        background-color: white;
+        border-top-left-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+        place-content: center;
+        place-items: center;
+        width: 84%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px 7px 7px 7px;
+    }
+    
+    .skills__box {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        place-content: center;
+    }
+    
+    .skills__img, .academic__courses__item__img {
+        width: 50px;
+        background-color: white;
+        padding: 0px;
+        margin-bottom: 9px;
+        border-radius: 0%;
+    }
+    
+    .skills__name, .academic__courses__item__title {
+        display: flex;
+        margin-top: 9px;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Josefin Slab", serif;
+        letter-spacing: 2px;
+        color: black;
+        white-space: nowrap;
+    }
+    
+    .hobbies, .experience{
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border: 4px rgb(211, 160, 19) solid;
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        place-items: center;
+        padding:0px;
+        margin: 10px;
+    }
+    
+    .hobbies__title, .experience__section__title {
+        text-align: center;
+        place-content: center;
+        place-items: center;
+        background-color: white;
+        white-space: nowrap;
+        font-size: 30px;
+        font-family: "Amita", serif;
+        width: 15%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hobbies__line, .experience__box, .experience__courses {
+        background-color: white;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        place-content: center;
+        place-items: center;
+        width: 84%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+    
+    .experience__box {
+        background-color: bisque;
+        border-top-right-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+        place-content: center;
+        place-items: center;
+        width: 84%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+    
+    .hobbies__box {
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+    }
+    
+    .hobbies__img {
+        width: 60px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    
+    .hobbies__name, .experience__courses__item__title, .experience__courses__item__subtitle {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Josefin Slab", serif;
+        letter-spacing: 2px;
+    }
+    
+    .academic__courses__item__img, .experience__courses__item__img {
+        width: 90px;
+        background-color: white;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    
+    .linkgit {
+        background-color: #57C1FF;
+        border: 2px solid black;
+        border-radius: 3rem;
+        padding-bottom: 5px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    
+    .formcontacto {
+        display: flex;
+        place-content: center;
+        padding: 40px;
+    }
+    
+    .formcontacto__contacto {
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        width: 50%;
+    }
+    
+    .formcontacto__img {
+        display: none;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .container__contacto {
+        width: 100%; 
+        background-color: bisque;
+        padding: 25px;
+        border-radius: 3rem;
+        place-content: center;
+    }
+    
+    .contactme {
+        text-align: center;
+        font-family: "Amita", serif;
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    
+    .container__title {
+        text-align: center;
+    }
+    
+    .contact__form {
+        display: flex;
+        place-content: center;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 0px;
+    }
+    
+    .form-group input, .form-group textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .error {
+        color: red;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: #218838;
+    }
+    
+    
+    
+    
+    .footer {
+        padding: 15px;
+        background-color: bisque;
+        display: flex;
+        place-content: center;
+    }
+    
+    .link {
+        font-size: 26px;
+        font-family: "Josefin Slab", serif;
+    }
+    
+    .link__link {
+        font-family: "Amita", serif;
+        text-decoration: underline;
+    }
+    
+    .quote {
+        padding: 12px;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+}
+
+/*Mobile*/
+@media (min-width: 350px) and (max-width:550px) {
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        place-items: center;
+        justify-content: space-evenly;
+        background-color: bisque;
+    }
+    
+    .menu__header {
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        gap: 15px;
+    }
+
+    .menu__title {
+        font-size: 24px;
+    }
+    
+    .menu__header img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .menu__list:hover {
+        background-color: #218838;
+    }
+
+    .title{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .title__div {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+    
+    .title__profile {
+        width: 250px;
+        border: 4px rgb(211, 160, 19) solid;
+        border-radius: 500px;
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .title__bio {
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .title__network {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .about{
+        border: 5px solid bisque;
+        border-radius: 35px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 400px;
+        margin: 15px;
+        background-color: white;
+    }
+    
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 0;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    
+    .about__title {
+        display: flex;
+        background-color: white;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+        font-family: "Amita", serif;
+        place-content: center;
+        place-items: center;
+        white-space: nowrap;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .about__paragraph {
+        background-color: none;
+        display: flex;
+        justify-items: center;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        place-items: center;
+        white-space: wrap; 
+        padding: 7px;
+        margin: 7px;
+        border-radius: 35px;  
+    }
+
+    .skills, .academic, .hobbies, .experience{
+        border: 5px solid bisque;
+        border-radius: 35px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 400px;
+        margin: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        height: 400px;
+    }
+
+    .skills__line, .academic__courses, .hobbies__line {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-content: center;
+        gap: 0px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    .experience__courses {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        gap: 9px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    
+    .skills__title, .academic__title, .hobbies__title, .experience__section__title {
+        background-color: white;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+        font-family: "Amita", serif;
+        place-content: center;
+        place-items: center;
+        margin-top: 0px;
+        width: 0px;
+        display: flex;
+    }
+
+    .skills__box, .academic__courses__box, .hobbies__box, .experience__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-content: center;
+        width: 0;
+    }
+
+    .skills__img, .academic__courses__item__img, .hobbies__img {
+        width: 50px;
+        background-color: white;
+        padding: 3px;
+        border-radius: 0;
+    }
+
+    .skills__name, .academic__courses__item__title, .hobbies__name {
+        margin-top: 3px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-family: "Josefin Slab", serif;
+        letter-spacing: 2px;
+        color: rgb(24, 22, 22);
+        white-space: nowrap;
+    }
+
+    .formcontacto {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        padding: 40px;
+    }
+    
+    .formcontacto__contacto {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        width: 100%;
+    }
+    
+    .formcontacto__img {
+        width: 400px;
+        height: 400px;
+        display: none;
+    }
+    
+    .container__contacto {
+        width: 100%; 
+        place-content: center;
+        place-items: center;
+    }
+    
+    .contactme {
+        text-align: center;
+        font-family: "Amita", serif;
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+    
+    .footer__rodape {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        place-items: center;
+    }
+
+    .link {
+        font-size: 22px;
+        font-family: "Josefin Slab", serif;
+    }
+    
+    .quote {
+        padding: 12px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
